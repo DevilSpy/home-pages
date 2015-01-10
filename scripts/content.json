@@ -12,18 +12,18 @@
 		"introduction": 
 			{
 				"fi":"Hei,\nolen\nSami\nPelkonen\nja\nopiskelen\nMediatekniikkaa\nJyväskylän\nAmmattikorkeakoulussa.\nTällä\nhetkellä\nolen\nsuorittamassa\nviimeistä\ntäyttä\nopiskeluvuottani\nja\nkatseeni\nonkin\nsuuntautunut\nkesän\ntyöharjoitteluun\nja\nsen\njälkeen\nopinnäytetyön\ntekemiseen\nja\ntyöelämään.",
-				"en":"Hello"			
+				"en":"Hello,\nmy\nname\nis\nSami\nPelkonen\nand\nI\nam\nstudying\nMedia\nEngineering\nat\nJAMK\nUniversity\nof\nApplied\nSciences\nin\nJyväskylä,\nFinland.\nAt\nthe\nmoment\nI\nam\ndoing\nmy\nlast\nfull\nyear\nof\nstudy.\nI\nam\nlooking\nforward\nto\nmy\ninternship\nin\nthe\nsummer\nand\nafter\nthat\ndoing\nmy\nBachelor's\nThesis\nand\nstarting\non\nworking\nlife."			
 			},
 		"profession":
 			{
 				"fi":"Ammatillisesti\nolen\nsuuntautunut\nverkko-\nja\npalvelinohjelmointiin\nniin\nJavaScriptillä,\nPHP:lla\nkuin\nJavaEE:lläkin.\nOsaamista\nja\nmielenkiintoa\nlöytyy\nkuitenkin\nmyös\nmuunlaisesta\nohjelmoinnista,\nvideoiden\nja\nkuvien\neditoinnista\nsekä\n3D-mallintamisesta.",
-				"en":"Programming"
-			},
+				"en":"Professionally\nI\nam\noriented\nin\nweb-\nand\nback-end-development\nwith\nJavaScript,\nPHP\nand\nJavaEE.\nAt\nthat\nI\nhave\nskills\nand\nenthusiasm\nin\nmany\nkinds\nof\nprogramming,\nediting\nvideos\nand\nphotos\nand\nmaking\n3D-models."
+				},
 
 		"hobbies": 
 			{
 				"fi":"Harrastuspuolelta\nlöytyy\nkorealaista\nmiekkailua,\nHaedong\nKumdoa.\nMuuten\nvapaa-aika\nmenee\nlauta-\ntai\nvideopelejä\npelaten,\nsarjojen\nja\nelokuvien\nparissa,\npyörän\nselässä\ntai\nlenkkipoluilla.",
-				"en":"Hobbies"
+				"en":"In\nthe\nfree\ntime\nI\npractice\nKorean\nswordplay,\nHaedong\nKumdo,\nplay\nboard-\nand\nvideogames,\nwatch\nTV-series,\ngo\nto\nmovies,\nride\na\nbike\nand\njog."
 			}
 	}
 } 

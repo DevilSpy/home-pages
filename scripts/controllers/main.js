@@ -22,10 +22,22 @@ myModule.factory('ContentFactory', function($http) {
 	return $http.get('scripts/content.json');
 })
 
-myModule.controller('PageCtrl', function($scope, $timeout, $location, ContentFactory) {
+myModule.controller('PageCtrl', function($scope, $timeout, $location, $cookieStore, $cookies, ContentFactory) {
 
 	var language;
-	language = "fi";
+
+	if ($cookieStore.get('language') != null) {
+		language = $cookieStore.get('language');
+	} else {
+		language = "en";
+		$cookieStore.put('language', language);
+	}
+
+	$scope.setLanguage = function(lang) {
+		$cookieStore.put('language', lang);
+		language = $cookieStore.get('language');
+	}
+
 
 	//$timeout(function() {
 		ContentFactory.success(function(data) {
@@ -44,9 +56,6 @@ myModule.controller('PageCtrl', function($scope, $timeout, $location, ContentFac
 				$scope.cv = navbar.cv.en;
 				$scope.contact = navbar.contact.en;
 			}
-			//frontpage = data.content.navbar.frontpage.fi;
-			console.log(JSON.stringify(data));
-			console.log(navbar);
 
 			// CONTENT
 			//var introduction_text, profession_text, hobbies_text;
@@ -81,5 +90,4 @@ myModule.controller('PageCtrl', function($scope, $timeout, $location, ContentFac
 				return "";
 			}
 		}
-
 })

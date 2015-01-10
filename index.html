@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
 
-     <link rel="stylesheet" href="styles/font-awesome-4.2.0/css/font-awesome.min.css">
-    <script src="scripts/content.json"></script>
+    <link rel="stylesheet" href="styles/font-awesome-4.2.0/css/font-awesome.min.css">
+    <script src="scripts/modernizr-latest.js"></script>
   </head>
   <body ng-app="kotisivutApp">
     <!--[if lt IE 7]>
@@ -32,6 +32,17 @@
           <li><a ng-class="getClass('/portfolio')" ng-href="#/portfolio">{{portfolio}}</a></li>
           <li><a ng-class="getClass('/cv')" ng-href="#/cv">{{cv}}</a></li>
           <li><a ng-class="getClass('/contact')" ng-href="#/contact">{{contact}}</a></li>
+        </ul>
+        <ul class="navbar-mobile">
+          <li><a ng-class="getClass('/main')" ng-href="#/main">{{frontpage}}</a></li>
+          <li><a ng-class="getClass('/portfolio')" ng-href="#/portfolio">{{portfolio}}</a></li>
+          <li><a ng-class="getClass('/cv')" ng-href="#/cv">{{cv}}</a></li>
+          <li><a ng-class="getClass('/contact')" ng-href="#/contact">{{contact}}</a></li>
+        </ul>
+        <ul class="lang col-lg-2 col-lg-offset-2">
+          <li><a href="#" ng-click="setLanguage('fi')" onclick='location.reload(true); return false;'>FI</button></li>
+          <li><h3>/</h3></li>
+          <li><a ng-href="#" ng-click="setLanguage('en')" onclick='location.reload(true); return false;'>EN</a></li>
         </ul>
       </div>
 
