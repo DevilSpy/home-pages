@@ -7,14 +7,6 @@
  * # MainCtrl
  * Controller of the kotisivutApp
  */
-angular.module('kotisivutApp')
-  .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
 
 var myModule = angular.module('kotisivutApp');
 
@@ -36,6 +28,14 @@ myModule.controller('PageCtrl', function($scope, $timeout, $location, $cookieSto
 	$scope.setLanguage = function(lang) {
 		$cookieStore.put('language', lang);
 		language = $cookieStore.get('language');
+	}
+
+	$scope.setActive = function(lang) {
+		if ($cookieStore.get('language') == lang) {
+			return "active";
+		} else {
+			return "";
+		}
 	}
 
 

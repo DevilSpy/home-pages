@@ -24,6 +24,27 @@
 			{
 				"fi":"Harrastuspuolelta\nlöytyy\nkorealaista\nmiekkailua,\nHaedong\nKumdoa.\nMuuten\nvapaa-aika\nmenee\nlauta-\ntai\nvideopelejä\npelaten,\nsarjojen\nja\nelokuvien\nparissa,\npyörän\nselässä\ntai\nlenkkipoluilla.",
 				"en":"In\nthe\nfree\ntime\nI\npractice\nKorean\nswordplay,\nHaedong\nKumdo,\nplay\nboard-\nand\nvideogames,\nwatch\nTV-series,\ngo\nto\nmovies,\nride\na\nbike\nand\njog."
-			}
+			},
+
+		"portfolio":
+			{
+				"training_tracker": 
+					{
+						"fi":"Tämän\nsovelluksen\ntarkoitus\non\npitää\nkirjaa\ntreeneistä\nja\nosallistujista.\nSovellus\npitää\nrekisteriä\nseuran\njäsenistä\nja\nheidän\ntreenitunneistaan\nja\nvisualisoi\ntreenidataa.\nSovellus\non\ntehty\nlähinnä\nPHP:lla\nja\nHighcharts\n-JavaScript\nkirjastoa\non\nkäytetty\nvisualisoimaan\ndataa.\nTämä\nsovellus\non\nkäytössä\nJyväskylän\nHaedong\nKumdolla\nja\npyöritän\nsitä\nomalla\nRaspberry\nPi\n-serverilläni.\nTätä\nsovellusta\nkehitän\naktiivisesti.",
+						"en":"I\nmade\nthis\nweb\napplication\nto\nkeep\ntrack\nof\nexercises\nand\nparticipants.\nThe\napplication\nalso\nkeeps\nrecord\nof\nmembers\nand\ntheir\ntraining\nhours\nand\nvisualizes\ntraining\ndata.\nI\nused\nmainly\nPHP\nto\ncreate\nthis\napplication\nand\nHighcharts\n-JavaScript\nlibrary\nto\nvisualize\nthe\ndata.\nThis\napplication\nis\nin\nuse\nfor\nHaedong\nKumdo\nJyväskylä\nand\nI\nrun\nit\non\nmy\nown\nRaspberry\nPi\n-server.\nI\ndevelope\nthis\napplication\nactively."
+					},
+
+				"training_tracker_javaee": 
+					{
+						"fi":"Samankaltainen\ntreenienseurantasovellus\nkuin\naikaisempi,\nmutta\ntehty\nJavaEE:llä\nja\nSpring-frameworkilla.\nTässä\nsovelluksessa\nei\nole\ndatan\nvisualisointia.",
+						"en":"Same\nkind\nof\nTraining\ntracker\nas\nbefore\nbut\nmade\nwith\nJavaEE\nand\nSpring-framework.\nThere\nis\nno\ndata\nvisualization\nin\nthis\napplication."
+					},
+
+				"threejs_demo":
+					{
+						"fi":"Three.js\n-JavaScript-kirjastolla\ntehty\ndemo,\njossa\nvoit\npelata\nSnakella\nja\nselvittää\ntiesi\nsokkelon\nläpi.",
+						"en":"Demo\nmade\nwith\nthree.js\n-JavaScript\nlibrary\nwhere\nyou\ncan\nplay\nas\nSnake\nand\ngo\nthrough\nmaze."
+					}
+			}	
 	}
 } 

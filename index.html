@@ -26,7 +26,7 @@
     <!-- Add your site or application content here -->
     <div ng-controller="PageCtrl" class="container">
       <div class="row header">
-        <h3 class="page-title text-muted col-lg-2"><a ng-href="#/main">Sami Pelkonen</a></h3>
+        <h3 class="page-title col-lg-2"><a ng-href="#/main">Sami Pelkonen</a></h3>
         <ul class="navbar col-lg-4 col-lg-offset-2">
           <li><a ng-class="getClass('/main')" ng-href="#/main">{{frontpage}}</a></li>
           <li><a ng-class="getClass('/portfolio')" ng-href="#/portfolio">{{portfolio}}</a></li>
@@ -40,9 +40,9 @@
           <li><a ng-class="getClass('/contact')" ng-href="#/contact">{{contact}}</a></li>
         </ul>
         <ul class="lang col-lg-2 col-lg-offset-2">
-          <li><a href="#" ng-click="setLanguage('fi')" onclick='location.reload(true); return false;'>FI</button></li>
+          <li><a href="#" ng-class="setActive('fi')" ng-click="setLanguage('fi')" onclick='location.reload(true); return false;'>FI</button></li>
           <li><h3>/</h3></li>
-          <li><a ng-href="#" ng-click="setLanguage('en')" onclick='location.reload(true); return false;'>EN</a></li>
+          <li><a ng-href="#" ng-class="setActive('en')" ng-click="setLanguage('en')" onclick='location.reload(true); return false;'>EN</a></li>
         </ul>
       </div>
 
