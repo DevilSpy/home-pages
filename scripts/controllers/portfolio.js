@@ -14,6 +14,7 @@ myModule.factory('ContentFactory', function($http) {
 	return $http.get('scripts/content.json');
 })
 
+
 myModule.controller('PortfolioCtrl', function ($scope, $cookieStore, $cookies, ContentFactory) {
 	ContentFactory.success(function(data) {
 			
@@ -27,6 +28,7 @@ myModule.controller('PortfolioCtrl', function ($scope, $cookieStore, $cookies, C
 		}
 
 		var portfolio = data.content.portfolio;
+		
 
 		var training_tracker = portfolio.training_tracker;
 		if (language == "fi") {
@@ -47,6 +49,34 @@ myModule.controller('PortfolioCtrl', function ($scope, $cookieStore, $cookies, C
 			$scope.threejs_demo = threejs_demo.fi;
 		} else {
 			$scope.threejs_demo = threejs_demo.en;
+		}
+
+		var hasuniityn_hunaja = portfolio.hasuniityn_hunaja;
+		if (language == "fi") {
+			$scope.hasuniityn_hunaja = hasuniityn_hunaja.fi;
+		} else {
+			$scope.hasuniityn_hunaja = hasuniityn_hunaja.en;
+		}
+
+		var unity_case = portfolio.unity_case;
+		if (language == "fi") {
+			$scope.unity_case = unity_case.fi;
+		} else {
+			$scope.unity_case = unity_case.en;
+		}
+
+		var D_models = portfolio.D_models;
+		if (language == "fi") {
+			$scope.D_models = D_models.fi;
+		} else {
+			$scope.D_models = D_models.en;
+		}
+		
+		var graphics = portfolio.graphics;
+		if (language == "fi") {
+			$scope.graphics = portfolio.graphics.fi;
+		} else {
+			$scope.graphics = portfolio.graphics.en;
 		}
 	});	  
 });

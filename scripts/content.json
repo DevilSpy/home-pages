@@ -44,7 +44,33 @@
 					{
 						"fi":"Three.js\n-JavaScript-kirjastolla\ntehty\ndemo,\njossa\nvoit\npelata\nSnakella\nja\nselvittää\ntiesi\nsokkelon\nläpi.",
 						"en":"Demo\nmade\nwith\nthree.js\n-JavaScript\nlibrary\nwhere\nyou\ncan\nplay\nas\nSnake\nand\ngo\nthrough\nmaze."
-					}
-			}	
+					},
+
+				"hasuniityn_hunaja":
+					{
+						"fi":"Hasuniityn\nHunaja\n-hunajantuottajalle\ntekemäni\nnettisivut\nWordpressillä.",
+						"en":"Web\npage\nI\nmade\nwith\nWordpress\nfor\nhoney\nproducer\nHasuniityn\nHunaja."
+					},
+
+				"unity_case":
+					{
+						"fi":"N4S@JAMK\n-projekti,\njossa\nolin\nmukana\ntutkimassa\nkuinka\nkäyttää\nUnity\npelimoottoria\nkustannustehokkaasti\nlaitteen\nja\nkäyttöliittymän\nsimulointiin\noikean\nelämän\ntilanteessa.\nVastuualueeni\nprojektissa\noli\nohjelmointi\nja\nselvittää,\nkuinka\nkaikki\neri\npalaset\nsaa\ntoimimaan\nkeskenään.",
+						"en":"N4S@JAMK\nproject\nI\nwas\npart\nof\nwhere\nwe\ninvestigated\nhow\nto\nsimulate\nreal\nlife\ndevice\nand\nits\nuser\ninterface\ncost\nefficiently\nwith\nUnity\ngame\nengine.\nI\nwas\nresponsible\nfor\nthe\nprogramming\nand\nfiguring\nout\nhow\nto\nput\nall\nthe\npieces\ntogether."
+					},
+
+				"D_models":
+					{
+						"fi":"3D-mallit,\njotka\ntein\n3D-mallinnuksen\nkurssille\n3ds\nMax\n-ohjelmalla.",
+						"en":"3D-models\nI\nmade\nfor\n3D-modeling\ncourse\nwith\n3ds\nMax."
+					},
+
+				"graphics":
+					{
+						"fi":"Jyväskylän\nHaedong\nKumdolle\ntekemiäni\njulisteita.",
+						"en":"Posters\nI've\nmade\nfor\nHaedong\nKumdo\nJyväskylä."
+					}	
+			}
+
+
 	}
 } 
