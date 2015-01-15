@@ -1,1 +1,54 @@
-<p>This is the cv view.</p>
+<div ng-controller="CVCtrl" class="container">
+	
+	<div class="row space">
+	</div>
+
+	<div class="cv_header">
+		<h2  class="centered">{{current_projects}}</h2>
+	</div>
+
+	
+
+	<div class="cv_item">
+		<div class="row cv_title">
+			<h2>{{data_visualization}}</h2>
+		</div>
+		<div class="cv_text">
+			<p>{{data_visualization_text}}</p>
+		</div>
+	</div>
+
+
+
+	<div class="cv_item">
+		<div class="row cv_title">
+			<h2>{{game_programming}}</h2>
+		</div>
+		<div class="cv_text">
+			<p>{{game_programming_text}}</p>
+		</div>
+	</div>
+
+	<div class="row space">
+	</div>
+
+	<div class="cv_header">
+		<h2>{{past_experience}}</h2>
+	</div>
+
+
+
+	<div class="cv_item">
+		<div class="row cv_title">
+			<h2>{{n4s}}</h2>
+			<h2 class="right">{{n4s_time}}</h2>
+		</div>
+		<div class="cv_text">
+			<p>{{n4s_text}}</p>
+		</div>
+	</div>
+
+	<div class="row space">
+	</div>	
+
+</div>

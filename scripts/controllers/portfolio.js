@@ -29,56 +29,35 @@ myModule.controller('PortfolioCtrl', function ($scope, $cookieStore, $cookies, C
 
 		var portfolio = data.content.portfolio;
 		
-
 		var training_tracker = portfolio.training_tracker;
-		if (language == "fi") {
-			$scope.training_tracker = training_tracker.fi;
-		} else {
-			$scope.training_tracker = training_tracker.en;
-		}
-
 		var training_tracker_javaee = portfolio.training_tracker_javaee;
-		if (language == "fi") {
-			$scope.training_tracker_javaee = training_tracker_javaee.fi;
-		} else {
-			$scope.training_tracker_javaee = training_tracker_javaee.en;
-		}
-
 		var threejs_demo = portfolio.threejs_demo;
-		if (language == "fi") {
-			$scope.threejs_demo = threejs_demo.fi;
-		} else {
-			$scope.threejs_demo = threejs_demo.en;
-		}
-
 		var hasuniityn_hunaja = portfolio.hasuniityn_hunaja;
-		if (language == "fi") {
-			$scope.hasuniityn_hunaja = hasuniityn_hunaja.fi;
-		} else {
-			$scope.hasuniityn_hunaja = hasuniityn_hunaja.en;
-		}
-
 		var unity_case = portfolio.unity_case;
-		if (language == "fi") {
-			$scope.unity_case = unity_case.fi;
-		} else {
-			$scope.unity_case = unity_case.en;
+		var D_models = portfolio.D_models;
+		var graphics = portfolio.graphics;
+		
+		var choices = {1: training_tracker, 2: training_tracker_javaee, 3: threejs_demo, 4: hasuniityn_hunaja, 5: unity_case, 6: D_models, 7: graphics};
+		
+		var determineLanguage = function (choice) {
+			if (language == "fi") {
+				return choices[choice].fi
+			} else {
+				return choices[choice].en;
+
+			}
 		}
 
-		var D_models = portfolio.D_models;
-		if (language == "fi") {
-			$scope.D_models = D_models.fi;
-		} else {
-			$scope.D_models = D_models.en;
-		}
-		
-		var graphics = portfolio.graphics;
-		if (language == "fi") {
-			$scope.graphics = portfolio.graphics.fi;
-		} else {
-			$scope.graphics = portfolio.graphics.en;
-		}
-	});	  
+		$scope.training_tracker = determineLanguage(1);
+		$scope.training_tracker_javaee = determineLanguage(2);
+		$scope.threejs_demo = determineLanguage(3);
+		$scope.hasuniityn_hunaja = determineLanguage(4);
+		$scope.unity_case = determineLanguage(5);
+		$scope.D_models = determineLanguage(6);
+		$scope.graphics = determineLanguage(7);
+
+
+ 	});	  
 });
 
  

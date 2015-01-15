@@ -69,6 +69,63 @@
 						"fi":"Jyväskylän\nHaedong\nKumdolle\ntekemiäni\njulisteita.",
 						"en":"Posters\nI've\nmade\nfor\nHaedong\nKumdo\nJyväskylä."
 					}	
+			},
+
+		"cv": 
+			{
+				"current_projects": 
+					{
+						"fi":"Tämänhetkiset\nprojektit",
+						"en":"Current\nprojects"
+					},
+
+				"data_visualization": 
+					{
+						"fi":"Datan\nvisualisointia\nkartalle",
+						"en":"Data\nvisualization\non\na\nmap"
+					},
+
+				"data_visualization_text":
+					{
+						"fi":"Mediatekniikan\nkolmannen\nvuoden\nasiakasprojekti,\njossa\nkehitämme\nuusia\ntapoja\nvisualisoida\ndataa\nkartalle\nheatmap-tyyppisesti.\nVastuualueeni\nprojektissa\non\npääsääntöisesti\nkartan\ntoimintoihin\nliittyvää\nohjelmointia.",
+						"en":"Third\nyear\nMedia\nEngineering\nproject\nfor\na\nreal\nclient.\nOur\naim\nis\nto\ndevelope\nnew\nways\nto\nvisualize\ndata\non\na\nmap\nin\nheatmap\nkind\nof\nway.\nMy\nresponsibilities\nlays\nmostly\nin\nprogramming\nthe\nfeatures\nfor\nthe\nmap."
+					},
+
+				"game_programming":
+					{
+						"fi":"Peliohjelmointi",
+						"en":"Game\nprogramming"
+					},
+
+				"game_programming_text":
+					{
+						"fi":"Keväällä\nkäyn\npeliohjelmoinnin\nkurssia,\njossa\nteemme\npienissä\nryhmissä\nprototyypin\npelistä\nUnity-pelimoottorilla.\nKurssin\nsisältöön\nkuuluu\nkaikenlaista\npelin\ntekemiseen\nliittyvää,\nkuten\nkenttäsuunnittelua,\nohjelmointia,\n3D-mallinnusta\nja\nanimointia.\nTehtäväni\nprojektissa\ntulee\nliittymään\nohjelmointiin\nja\ntodennäköisesti\ngraafiseen\nsuunnitteluun.",
+						"en":"In\nthis\nspring\nI\nam\nattending\nto\ngame\nprogramming\ncourse\nwhere\nwe\nare\ngoing\nto\nmake\na\nprototype\nof\na\ngame\nin\nsmall\ngroups\nwith\nUnity\ngame\nengine.\nDuring\nthe\ncourse\nwe\nare\ngoing\nto\nlearn\neverything\nrelated\nto\nmaking\ngames\nsuch\nas\nlevel\ndesign,\nprogramming,\n3D-modeling\nand\nanimation.\nMy\nresponsibilities\nare\ngoing\nto\nbe\nrelated\nto\nprogramming\nand\nmost\nlikely\nto\ngraphical\ndesign."
+					},
+
+				"past_experience":
+					{
+						"fi":"Aiempi\ntyökokemus",
+						"en":"Past\nworking\nexperience"
+					},
+
+				"n4s":
+					{
+						"fi":"N4S@JAMK",
+						"en":"N4S@JAMK"
+					},
+
+				"n4s_time":
+					{
+						"fi":"12.5.-1.8.2014",
+						"en":"12th May - 1st August 2014"
+					},
+
+				"n4s_text":
+					{
+						"fi":"Suoritin\npuolet\nharjoittelustani\nN4S@JAMK-projektissa\nJyväskylän\nAmmattikorkeakoulussa,\njoka\noli\nosa\nDigilen\nvaltakunnallista\nN4S-projektia,\njossa\nkehitetään\nuusia\nketteriä\nmenetelmiä\nohjelmistokehitykseen.\nNimikkeeni\nprojektissa\noli\nJunior\nDeveloper.\nOlin\nmukana\nkahdessa\n'haasteessa'\neli\npienimuotoisessa\nprojektissa,\njossa\nsaimme\nitse\npäättää\nkehitystavat.\nEnsimmäinen\noli\nUnity\ncase,\njossa\nselvitimme,\npystyykö\nUnity-pelimoottorilla\nsimuloimaan\nlaitetta\nja\nsen\nkäyttöliittymää\ntosielämän\ntilanteessa\nkustannustehokkaasti.\nTässä\nhaasteessa\nvastasin\nohjelmoinnista\nja\neri\nosasten\nsovittamisesta\ntoisiinsa.\nToinen\nhaaste,\njossa\nolin\nmukana\noli\nTOAS\ncase,\njossa\npakkasimme\nTiedon\nTOAS-järjestelmää\nLinux-paketeiksi.\nTässä\nhaasteessa\ntoimin\nlähinnä\nauttavana\nkätenä,\nkoska\nniin\npaljon\nuutta\nopiskeltavaa\ntuli\neteen.\nHaasteessa\nkäytimme\nmuun\nmuassa\nPuppettia.",
+						"en":"I\nperformed\nhalf\nof\nmy\ninternship\nat\nN4S@JAMK-project\nat\nJAMK\nJyväskylä\nUniversity\nof\nApplied\nSciences.\nN4S@JAMK\nwas\npart\nof\nDigile's\nN4S\nproject\nwhich\ndevelopes\nnew\nmethods\nfor\nagile\nsoftware\ndevelopment.\nMy\ntitle\nin\nthe\nproject\nwas\nJunior\nDeveloper.\nI\nwas\npart\nof\ntwo\n'challenges'\nor\nsmall\nprojects\nwhere\nwe\ncould\ndecide\nour\nworking\nmethods.\nThe\nfirst\nchallenge\nwas\nUnity\ncase\nwhere\nwe\ninvestigated\nif\nit\nis\npossible\nto\nsimulate\ndevice\nand\nits\nuser\ninterface\nin\nreal\nlife\nsituation\ncost\nefficiently\nwith\nUnity\ngame\nengine.\nIn\nthis\ncase\nI\nwas\nresponsible\nfor\nprogramming\nand\nfiguring\nout\nhow\nto\nget\nall\nthe\npieces\nto\nwork\ntogether.\nThe\nother\nchallenge\nwas\nTOAS\ncase\nwhere\nwe\npacked\nTieto's\nTOAS-platform\nto\nLinux-packages.\nIn\nthis\ncase\nI\nworked\nas\nhelping\nhand\nbecause\nthere\nwas\nso\nmuch\nnew\nthings\nI\nneeded\nto\nstudy.\nIn\nthis\ncase\nwe\nused\nPuppet\namong\nother\nthings."
+					}
 			}
 
 
