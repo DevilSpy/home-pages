@@ -52,10 +52,22 @@
 						"en":"Web\npage\nI\nmade\nwith\nWordpress\nfor\nhoney\nproducer\nHasuniityn\nHunaja."
 					},
 
+				"unity_case_title":
+					{
+						"fi":"Laitteen\nja\nkäyttöliittymän\nsimulointia\nUnity-pelimoottorilla",
+						"en":"Hardware\nand\nsoftware\nsimulation\nwith\nUnity\ngame\nengine"
+					},
+
 				"unity_case":
 					{
 						"fi":"N4S@JAMK\n-projekti,\njossa\nolin\nmukana\ntutkimassa\nkuinka\nkäyttää\nUnity\npelimoottoria\nkustannustehokkaasti\nlaitteen\nja\nkäyttöliittymän\nsimulointiin\noikean\nelämän\ntilanteessa.\nVastuualueeni\nprojektissa\noli\nohjelmointi\nja\nselvittää,\nkuinka\nkaikki\neri\npalaset\nsaa\ntoimimaan\nkeskenään.",
 						"en":"N4S@JAMK\nproject\nI\nwas\npart\nof\nwhere\nwe\ninvestigated\nhow\nto\nsimulate\nreal\nlife\ndevice\nand\nits\nuser\ninterface\ncost\nefficiently\nwith\nUnity\ngame\nengine.\nI\nwas\nresponsible\nfor\nthe\nprogramming\nand\nfiguring\nout\nhow\nto\nput\nall\nthe\npieces\ntogether."
+					},
+
+				"D_models_title":
+					{
+						"fi":"3D-mallit",
+						"en":"3D-models"
 					},
 
 				"D_models":
@@ -63,6 +75,12 @@
 						"fi":"3D-mallit,\njotka\ntein\n3D-mallinnuksen\nkurssille\n3ds\nMax\n-ohjelmalla.",
 						"en":"3D-models\nI\nmade\nfor\n3D-modeling\ncourse\nwith\n3ds\nMax."
 					},
+
+				"graphics_title":
+					{
+						"fi":"Grafiikkaa",
+						"en":"Graphics"
+					},	
 
 				"graphics":
 					{
@@ -125,7 +143,50 @@
 					{
 						"fi":"Suoritin\npuolet\nharjoittelustani\nN4S@JAMK-projektissa\nJyväskylän\nAmmattikorkeakoulussa,\njoka\noli\nosa\nDigilen\nvaltakunnallista\nN4S-projektia,\njossa\nkehitetään\nuusia\nketteriä\nmenetelmiä\nohjelmistokehitykseen.\nNimikkeeni\nprojektissa\noli\nJunior\nDeveloper.\nOlin\nmukana\nkahdessa\n'haasteessa'\neli\npienimuotoisessa\nprojektissa,\njossa\nsaimme\nitse\npäättää\nkehitystavat.\nEnsimmäinen\noli\nUnity\ncase,\njossa\nselvitimme,\npystyykö\nUnity-pelimoottorilla\nsimuloimaan\nlaitetta\nja\nsen\nkäyttöliittymää\ntosielämän\ntilanteessa\nkustannustehokkaasti.\nTässä\nhaasteessa\nvastasin\nohjelmoinnista\nja\neri\nosasten\nsovittamisesta\ntoisiinsa.\nToinen\nhaaste,\njossa\nolin\nmukana\noli\nTOAS\ncase,\njossa\npakkasimme\nTiedon\nTOAS-järjestelmää\nLinux-paketeiksi.\nTässä\nhaasteessa\ntoimin\nlähinnä\nauttavana\nkätenä,\nkoska\nniin\npaljon\nuutta\nopiskeltavaa\ntuli\neteen.\nHaasteessa\nkäytimme\nmuun\nmuassa\nPuppettia.",
 						"en":"I\nperformed\nhalf\nof\nmy\ninternship\nat\nN4S@JAMK-project\nat\nJAMK\nJyväskylä\nUniversity\nof\nApplied\nSciences.\nN4S@JAMK\nwas\npart\nof\nDigile's\nN4S\nproject\nwhich\ndevelopes\nnew\nmethods\nfor\nagile\nsoftware\ndevelopment.\nMy\ntitle\nin\nthe\nproject\nwas\nJunior\nDeveloper.\nI\nwas\npart\nof\ntwo\n'challenges'\nor\nsmall\nprojects\nwhere\nwe\ncould\ndecide\nour\nworking\nmethods.\nThe\nfirst\nchallenge\nwas\nUnity\ncase\nwhere\nwe\ninvestigated\nif\nit\nis\npossible\nto\nsimulate\ndevice\nand\nits\nuser\ninterface\nin\nreal\nlife\nsituation\ncost\nefficiently\nwith\nUnity\ngame\nengine.\nIn\nthis\ncase\nI\nwas\nresponsible\nfor\nprogramming\nand\nfiguring\nout\nhow\nto\nget\nall\nthe\npieces\nto\nwork\ntogether.\nThe\nother\nchallenge\nwas\nTOAS\ncase\nwhere\nwe\npacked\nTieto's\nTOAS-platform\nto\nLinux-packages.\nIn\nthis\ncase\nI\nworked\nas\nhelping\nhand\nbecause\nthere\nwas\nso\nmuch\nnew\nthings\nI\nneeded\nto\nstudy.\nIn\nthis\ncase\nwe\nused\nPuppet\namong\nother\nthings."
+					},
+
+				"other_works":
+					{
+						"fi":"Muut\ntyöt",
+						"en":"Other\nworks"
+					},
+
+				"other_works_text":
+					{
+						"fi":"Olen\ntyöskennellyt\npienestä\npitäen\nisäni\nkodinkoneliikkeessä\nmyyjänä\nmonet\nkesät\nja\nviikonloput\nsekä\nmuutaman\npidemmän\njakson,\nmuun\nmuassa\narmeijan\njälkeen.\nYhden\nkesän\ntyöskentelin\nravintolassa\nkeittiöapulaisena.",
+						"en":"I\nhave\nbeen\nworking\nat\nmy\nfather's\nhome\nappliances\nstore\nsince\nI\nwas\na\nlittle\nkid.\nI\nworked\nmost\nof\nthe\nsummers\nand\nsome\nweekends\nand\nfew\nlonger\nperiods\nfor\nexample\nafter\nmy\nmilitary\nservice.\nOne\nsummer\nI\nworked\nat\na\nrestaurant\nas\na\nkitchen\nassistant."
+					},
+
+				"activities":
+					{
+						"fi":"Harrastustoiminta",
+						"en":"Activities"
+					},
+
+				"haedongkumdo":
+					{
+						"fi":"Haedong\nKumdo\non\nkorealaista\nliikesarjoihin\npohjautuvaa\nmiekkailua.\nTällä\nhetkellä\nminulla\non\npunainen\nvyö\nja\ntavoitteenani\non\nsuorittaa\nmusta\nvyö\ntämän\nvuoden\naikana.\nToimin\nseuramme\nrahastonhoitajana\nsekä\napuvetäjänä.",
+						"en":"Haedong\nKumdo\nis\nKorean\nswordplay\nwhere\nall\nour\ndoings\nis\nbased\non\npredetermined\nchain\nof\nmovements.\nAt\nthis\nmoment\nI\nhave\nred\nbelt\nand\nmy\naim\nis\nto\nget\nblack\nbelt\nduring\nthis\nyear.\nI\nact\nas\ntreasurer\nand\nas\nan\nassistant\ncoach."
+					},
+
+				"haedongkumdo_time":
+					{
+						"fi":"Syksy\n2013\n-",
+						"en":"Fall\n2013\n-"
+					},
+
+				"hanmoodo":
+					{
+						"fi":"Han\nMoo\nDo\non\nSuomessa\nkehitetty\nkorealainen\nkamppailulaji,\njoka\nsisältää\nkaikkea\npotkuista\nasetekniikoihin.\nHarrastin\nHan\nMoo\nDoa\npunaiselle\nvyölle\nasti.\nToimin\napuvetäjänä.",
+						"en":"Han\nMoo\nDo\nis\nKorean\nmartial\nart\ndeveloped\nin\nFinland.\nHan\nMo\nDo\ncontains\neverything\nfrom\nkicking\nto\nweapon\ntechniques.\nI\nam\nat\nred\nbelt\nlevel\nat\nHan\nMoo\nDo.\nI\nacted\nas\nan\nassistant\ncoach."
+					},
+
+				"hanmoodo_time":
+					{
+						"fi":"Syksy\n2008\n-\nKevät\n2014",
+						"en":"Fall\n2008\n-\nSpring\n2014"
 					}
+
 			}
 
 

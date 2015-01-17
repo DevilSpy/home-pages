@@ -14,7 +14,7 @@ myModule.factory('ContentFactory', function($http) {
 	return $http.get('scripts/content.json');
 })
 
-myModule.controller('PageCtrl', function($scope, $timeout, $location, $cookieStore, $cookies, ContentFactory) {
+myModule.controller('PageCtrl', function($scope, $location, $cookieStore, $cookies, ContentFactory) {
 
 	var language;
 
@@ -39,48 +39,40 @@ myModule.controller('PageCtrl', function($scope, $timeout, $location, $cookieSto
 	}
 
 
-	//$timeout(function() {
+	
 		ContentFactory.success(function(data) {
 			
-			// NAVBAR
-			//var frontpage, portfolio, cv, contact;
 			var navbar = data.content.navbar;
-			if (language == "fi") {
-				$scope.frontpage = navbar.frontpage.fi;
-				$scope.portfolio = navbar.portfolio.fi;
-				$scope.cv = navbar.cv.fi;
-				$scope.contact = navbar.contact.fi;
-			} else {
-				$scope.frontpage = navbar.frontpage.en;
-				$scope.portfolio = navbar.portfolio.en;
-				$scope.cv = navbar.cv.en;
-				$scope.contact = navbar.contact.en;
-			}
-
-			// CONTENT
-			//var introduction_text, profession_text, hobbies_text;
 			var introduction = data.content.introduction;
-			if (language == "fi") {
-				$scope.introduction_text = introduction.fi;
-			} else {
-				$scope.introduction_text = introduction.en
-			}
-
 			var profession = data.content.profession;
-			if (language == "fi"){
-				$scope.profession_text = profession.fi;
-			} else {
-				$scope.profession_text = profession.en;
+			var hobbies = data.content.hobbies;
+
+			var frontpage = navbar.frontpage;
+			var portfolio = navbar.portfolio;
+			var cv = navbar.cv;
+			var contact = navbar.contact;	
+
+			var choices = {1: frontpage, 2: portfolio, 3: cv, 4: contact, 5: introduction, 6: profession, 7: hobbies};
+
+			var determineLanguage = function (choice) {
+				if (language == "fi") {
+					return choices[choice].fi
+				} else {
+					return choices[choice].en;
+				}
 			}
 
-			var hobbies = data.content.hobbies;
-			if (language == "fi") {
-				$scope.hobbies_text = hobbies.fi;
-			} else {
-				$scope.hobbies_text = hobbies.en;
-			}
+			$scope.frontpage = determineLanguage(1);
+			$scope.portfolio = determineLanguage(2);
+			$scope.cv = determineLanguage(3);
+			$scope.contact = determineLanguage(4);
+			$scope.introduction_text = determineLanguage(5);
+			$scope.profession_text = determineLanguage(6);
+			$scope.hobbies_text = determineLanguage(7);
+
 		});
-	//}, 500);
+
+		
 
 		// Get Active class for navigation links
 		$scope.getClass = function(path) {
