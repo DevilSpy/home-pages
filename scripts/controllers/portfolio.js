@@ -10,22 +10,11 @@
 
 var myModule = angular.module('kotisivutApp');
 
-myModule.factory('ContentFactory', function($http) {
-	return $http.get('scripts/content.json');
-})
-
-
-myModule.controller('PortfolioCtrl', function ($scope, $cookieStore, $cookies, ContentFactory) {
+myModule.controller('PortfolioCtrl', function ($scope, $cookieStore, $cookies, ContentFactory, LanguageFactory) {
+	
+	var language = LanguageFactory;
+	
 	ContentFactory.success(function(data) {
-			
-		var language;
-
-		if ($cookieStore.get('language') != null) {
-			language = $cookieStore.get('language');
-		} else {
-			language = "en";
-			$cookieStore.put('language', language);
-		}
 
 		var portfolio = data.content.portfolio;
 		

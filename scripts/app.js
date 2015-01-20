@@ -8,8 +8,11 @@
  *
  * Main module of the application.
  */
+angular.module('kotisivutAppServices', []);
+
 angular
   .module('kotisivutApp', [
+    'kotisivutAppServices',
     'ngAnimate',
     'ngCookies',
     'ngResource',

@@ -142,7 +142,7 @@
 				"n4s_text":
 					{
 						"fi":"Suoritin\npuolet\nharjoittelustani\nN4S@JAMK-projektissa\nJyväskylän\nAmmattikorkeakoulussa,\njoka\noli\nosa\nDigilen\nvaltakunnallista\nN4S-projektia,\njossa\nkehitetään\nuusia\nketteriä\nmenetelmiä\nohjelmistokehitykseen.\nNimikkeeni\nprojektissa\noli\nJunior\nDeveloper.\nOlin\nmukana\nkahdessa\n'haasteessa'\neli\npienimuotoisessa\nprojektissa,\njossa\nsaimme\nitse\npäättää\nkehitystavat.\nEnsimmäinen\noli\nUnity\ncase,\njossa\nselvitimme,\npystyykö\nUnity-pelimoottorilla\nsimuloimaan\nlaitetta\nja\nsen\nkäyttöliittymää\ntosielämän\ntilanteessa\nkustannustehokkaasti.\nTässä\nhaasteessa\nvastasin\nohjelmoinnista\nja\neri\nosasten\nsovittamisesta\ntoisiinsa.\nToinen\nhaaste,\njossa\nolin\nmukana\noli\nTOAS\ncase,\njossa\npakkasimme\nTiedon\nTOAS-järjestelmää\nLinux-paketeiksi.\nTässä\nhaasteessa\ntoimin\nlähinnä\nauttavana\nkätenä,\nkoska\nniin\npaljon\nuutta\nopiskeltavaa\ntuli\neteen.\nHaasteessa\nkäytimme\nmuun\nmuassa\nPuppettia.",
-						"en":"I\nperformed\nhalf\nof\nmy\ninternship\nat\nN4S@JAMK-project\nat\nJAMK\nJyväskylä\nUniversity\nof\nApplied\nSciences.\nN4S@JAMK\nwas\npart\nof\nDigile's\nN4S\nproject\nwhich\ndevelopes\nnew\nmethods\nfor\nagile\nsoftware\ndevelopment.\nMy\ntitle\nin\nthe\nproject\nwas\nJunior\nDeveloper.\nI\nwas\npart\nof\ntwo\n'challenges'\nor\nsmall\nprojects\nwhere\nwe\ncould\ndecide\nour\nworking\nmethods.\nThe\nfirst\nchallenge\nwas\nUnity\ncase\nwhere\nwe\ninvestigated\nif\nit\nis\npossible\nto\nsimulate\ndevice\nand\nits\nuser\ninterface\nin\nreal\nlife\nsituation\ncost\nefficiently\nwith\nUnity\ngame\nengine.\nIn\nthis\ncase\nI\nwas\nresponsible\nfor\nprogramming\nand\nfiguring\nout\nhow\nto\nget\nall\nthe\npieces\nto\nwork\ntogether.\nThe\nother\nchallenge\nwas\nTOAS\ncase\nwhere\nwe\npacked\nTieto's\nTOAS-platform\nto\nLinux-packages.\nIn\nthis\ncase\nI\nworked\nas\nhelping\nhand\nbecause\nthere\nwas\nso\nmuch\nnew\nthings\nI\nneeded\nto\nstudy.\nIn\nthis\ncase\nwe\nused\nPuppet\namong\nother\nthings."
+						"en":"I\nperformed\nhalf\nof\nmy\ninternship\nat\nN4S@JAMK-project\nat\nJAMK\nJyväskylä\nUniversity\nof\nApplied\nSciences.\nN4S@JAMK\nwas\npart\nof\nDigile's\nN4S\nproject\nwhich\ndevelopes\nnew\nmethods\nfor\nagile\nsoftware\ndevelopment.\nMy\ntitle\nin\nthe\nproject\nwas\nJunior\nDeveloper.\nI\nwas\npart\nof\ntwo\n'challenges'\nor\nsmall\nprojects\nwhere\nwe\ncould\ndecide\nour\nworking\nmethods.\nThe\nfirst\nchallenge\nwas\nUnity\ncase\nwhere\nwe\ninvestigated\nif\nit\nis\npossible\nto\nsimulate\ndevice\nand\nits\nuser\ninterface\nin\na\nreal\nlife\nsituation\ncost\nefficiently\nwith\nUnity\ngame\nengine.\nIn\nthis\ncase\nI\nwas\nresponsible\nfor\nprogramming\nand\nfiguring\nout\nhow\nto\nget\nall\nthe\npieces\nto\nwork\ntogether.\nThe\nother\nchallenge\nwas\nTOAS\ncase\nwhere\nwe\npacked\nTieto's\nTOAS-platform\nto\nLinux-packages.\nIn\nthis\ncase\nI\nworked\nas\nhelping\nhand\nbecause\nthere\nwas\nso\nmuch\nnew\nthings\nI\nneeded\nto\nstudy.\nIn\nthis\ncase\nwe\nused\nPuppet\namong\nother\nthings."
 					},
 
 				"other_works":
@@ -178,7 +178,7 @@
 				"hanmoodo":
 					{
 						"fi":"Han\nMoo\nDo\non\nSuomessa\nkehitetty\nkorealainen\nkamppailulaji,\njoka\nsisältää\nkaikkea\npotkuista\nasetekniikoihin.\nHarrastin\nHan\nMoo\nDoa\npunaiselle\nvyölle\nasti.\nToimin\napuvetäjänä.",
-						"en":"Han\nMoo\nDo\nis\nKorean\nmartial\nart\ndeveloped\nin\nFinland.\nHan\nMo\nDo\ncontains\neverything\nfrom\nkicking\nto\nweapon\ntechniques.\nI\nam\nat\nred\nbelt\nlevel\nat\nHan\nMoo\nDo.\nI\nacted\nas\nan\nassistant\ncoach."
+						"en":"Han\nMoo\nDo\nis\nKorean\nmartial\nart\ndeveloped\nin\nFinland.\nHan\nMo\nDo\ncontains\neverything\nfrom\nkicking\nto\nweapon\ntechniques.\nI\nam\nat\nred\nbelt\nlevel\nin\nHan\nMoo\nDo.\nI\nacted\nas\nan\nassistant\ncoach."
 					},
 
 				"hanmoodo_time":
@@ -193,6 +193,33 @@
 						"en":"Skills"
 					}
 
+			},
+
+		"contact":
+			{
+				"contact_title":
+					{
+						"fi":"Ota\nyhteyttä",
+						"en":"Contact\nme"
+					},
+
+				"contact_text":
+					{
+						"fi":"Onko\nyritykselläsi\ntarjota\nkesäksi\nharjoittelupaikkaa\nja\nsen\njälkeen\nopinnäytetyöaihetta\nja\nvakituista\ntyötä?\nEtsitkö\nosaavaa,\nahkeraa\nja\nmotivoitunutta\nohjelmistokehittäjää\nyrityksesi\ntulevaisuudelle?\nHaluaisin\nkuulla\nasiasta\nlisää!",
+						"en":"Can\nyour\ncompany\noffer\nme\ninternship\nfor\nthe\nsummer\nand\nafter\nthat\nsubject\nfor\nBachelor's\nThesis\nand\na\nsteady\njob?\nAre\nyou\nlooking\nfor\ncompetent,\nhard\nworking\nand\nmotivated\nsoftware\ndeveloper\nto\nimprove\nyour\ncompany's\nfuture?\nI\nwould\nlike\nto\nhear\nmore\nabout\nyour\noffer!"
+					},
+
+				"linkedin":
+					{
+						"fi":"LinkedIn-profiili",
+						"en":"LinkedIn profile"
+					},
+
+				"github":
+					{
+						"fi":"GitHub-profiili",
+						"en":"GitHub profile"
+					}
 			}
 
 

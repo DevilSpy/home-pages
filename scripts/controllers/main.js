@@ -10,20 +10,9 @@
 
 var myModule = angular.module('kotisivutApp');
 
-myModule.factory('ContentFactory', function($http) {
-	return $http.get('scripts/content.json');
-})
+myModule.controller('PageCtrl', function($scope, $location, $cookieStore, $cookies, ContentFactory, LanguageFactory) {
 
-myModule.controller('PageCtrl', function($scope, $location, $cookieStore, $cookies, ContentFactory) {
-
-	var language;
-
-	if ($cookieStore.get('language') != null) {
-		language = $cookieStore.get('language');
-	} else {
-		language = "en";
-		$cookieStore.put('language', language);
-	}
+	var language = LanguageFactory;
 
 	$scope.setLanguage = function(lang) {
 		$cookieStore.put('language', lang);
