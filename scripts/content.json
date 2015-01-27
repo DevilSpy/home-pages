@@ -31,7 +31,7 @@
 				"training_tracker": 
 					{
 						"fi":"Tämän\nsovelluksen\ntarkoitus\non\npitää\nkirjaa\ntreeneistä\nja\nosallistujista.\nSovellus\npitää\nrekisteriä\nseuran\njäsenistä\nja\nheidän\ntreenitunneistaan\nja\nvisualisoi\ntreenidataa.\nSovellus\non\ntehty\nlähinnä\nPHP:lla\nja\nHighcharts\n-JavaScript\nkirjastoa\non\nkäytetty\nvisualisoimaan\ndataa.\nTämä\nsovellus\non\nkäytössä\nJyväskylän\nHaedong\nKumdolla\nja\npyöritän\nsitä\nomalla\nRaspberry\nPi\n-serverilläni.\nTätä\nsovellusta\nkehitän\naktiivisesti.",
-						"en":"I\nmade\nthis\nweb\napplication\nto\nkeep\ntrack\nof\nexercises\nand\nparticipants.\nThe\napplication\nalso\nkeeps\nrecord\nof\nmembers\nand\ntheir\ntraining\nhours\nand\nvisualizes\ntraining\ndata.\nI\nused\nmainly\nPHP\nto\ncreate\nthis\napplication\nand\nHighcharts\n-JavaScript\nlibrary\nto\nvisualize\nthe\ndata.\nThis\napplication\nis\nin\nuse\nfor\nHaedong\nKumdo\nJyväskylä\nand\nI\nrun\nit\non\nmy\nown\nRaspberry\nPi\n-server.\nI\ndevelope\nthis\napplication\nactively."
+						"en":"I\nmade\nthis\nweb\napplication\nto\nkeep\ntrack\nof\nexercises\nand\nparticipants.\nThe\napplication\nalso\nkeeps\nrecord\nof\nmembers\nand\ntheir\ntraining\nhours\nand\nvisualizes\ntraining\ndata.\nI\nused\nmainly\nPHP\nto\ncreate\nthis\napplication\nand\nHighcharts\n-JavaScript\nlibrary\nto\nvisualize\nthe\ndata.\nThis\napplication\nis\nin\nuse\nfor\nHaedong\nKumdo\nJyväskylä\nand\nI\nrun\nit\non\nmy\nown\nRaspberry\nPi\n-server.\nI\ndevelop\nthis\napplication\nactively."
 					},
 
 				"training_tracker_javaee": 
@@ -106,7 +106,7 @@
 				"data_visualization_text":
 					{
 						"fi":"Mediatekniikan\nkolmannen\nvuoden\nasiakasprojekti,\njossa\nkehitämme\nuusia\ntapoja\nvisualisoida\ndataa\nkartalle\nheatmap-tyyppisesti.\nVastuualueeni\nprojektissa\non\npääsääntöisesti\nkartan\ntoimintoihin\nliittyvää\nohjelmointia.",
-						"en":"Third\nyear\nMedia\nEngineering\nproject\nfor\na\nreal\nclient.\nOur\naim\nis\nto\ndevelope\nnew\nways\nto\nvisualize\ndata\non\na\nmap\nin\nheatmap\nkind\nof\nway.\nMy\nresponsibilities\nlays\nmostly\nin\nprogramming\nthe\nfeatures\nfor\nthe\nmap."
+						"en":"Third\nyear\nMedia\nEngineering\nproject\nfor\na\nreal\nclient.\nOur\naim\nis\nto\ndevelop\nnew\nways\nto\nvisualize\ndata\non\na\nmap\nin\nheatmap\nkind\nof\nway.\nMy\nresponsibilities\nlays\nmostly\nin\nprogramming\nthe\nfeatures\nfor\nthe\nmap."
 					},
 
 				"game_programming":
